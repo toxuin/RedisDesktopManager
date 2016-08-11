@@ -1,3 +1,25 @@
+This fork does not have a Google Analytics and Update Nag enabled.
+
+This fork does not provide binaries of the software, but contains a script for easy compilation (script was deleted from original repo just to make your life harder).
+
+This repo is for my personal use and was not intended for your own, commercial, production, or any other use.
+
+I will not silence you for discussion about how to build a .dmg from latest code as if it would be a piracy (it is, in fact, not a piracy. Code is under LGPL). Freely discuss this matter in Issues.
+
+I will gladly accept all pull requests to improve automated binary production. If you want to make changes to software itself, please contribute to the original repo, author would appreciate that (also, you'd get that bloody subscription for free for a week or so).
+
+You can also contribute build instructions to the wiki of this repo.
+
+How to build a .dmg or a .deb:
+
+        export APP_VERSION=0.8.11aug (or whatever you want)
+		export export QTDIR=/Path/to/your/Qt
+		cd build
+		chmod +x build_package.sh
+		./build_package.sh
+
+Below goes the original readme.
+
 #[Redis Desktop Manager](http://redisdesktop.com "Redis Desktop Manager Offical Site")
 
 [Install & Run](http://docs.redisdesktop.com/en/latest/install/) | 

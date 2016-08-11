@@ -31,10 +31,7 @@ int main(int argc, char *argv[])
     QFontDatabase::addApplicationFont("://fonts/OpenSans-Regular.ttf");
     QFont defaultFont("OpenSans", 10);
     QApplication::setFont(defaultFont);
-
-    GoogleMP::startSession(QDateTime::currentMSecsSinceEpoch());
-    GoogleMP::instance()->reportEvent("rdm:cpp", "app start", "");
-
+	
     MainWin w;
     w.setWindowTitle(QString("Redis Desktop Manager v.%1").arg(QString(RDM_VERSION)));
     w.show();

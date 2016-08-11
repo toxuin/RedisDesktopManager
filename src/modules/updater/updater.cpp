@@ -29,9 +29,6 @@ Updater::Updater()
             .arg(QCoreApplication::applicationVersion())
             .arg(platform)
         );
-
-    manager->get(QNetworkRequest(updateUrl));
-
 }
 Updater::~Updater()
 {

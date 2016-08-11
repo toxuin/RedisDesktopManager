@@ -135,8 +135,6 @@ Repeater {
                         onClicked: {
                             newKeyName.text = keyNameField.text
                             renameConfirmation.open()
-
-                            Analytics.reportEvent("value-editor", "rename-key")
                         }
                     }
 
@@ -160,8 +158,6 @@ Repeater {
 
                         onClicked: {
                             deleteConfirmation.open()
-
-                            Analytics.reportEvent("value-editor", "delete-key")
                         }
                     }
 
@@ -207,8 +203,6 @@ Repeater {
                         onClicked: {
                             newTTL.text = ""+keyTtl
                             setTTLConfirmation.open()
-
-                            Analytics.reportEvent("value-editor", "set-key-ttl")
                         }
                     }
                 }
@@ -430,8 +424,6 @@ Repeater {
                                 iconSource: "qrc:/images/add.png"
                                 onClicked: {
                                     addRowDialog.open()
-
-                                    Analytics.reportEvent("value-editor", "add-row")
                                 }
 
                                 Dialog {
@@ -497,8 +489,6 @@ Repeater {
 
                                     deleteRowConfirmation.rowToDelete = rowIndex
                                     deleteRowConfirmation.open()
-
-                                    Analytics.reportEvent("value-editor", "delete-row")
                                 }
 
                                 MessageDialog {
@@ -531,8 +521,6 @@ Repeater {
                                         console.log("Reload value in tab")
                                         table.smodel.reload()
                                         valueEditor.clear()
-
-                                        Analytics.reportEvent("value-editor", "reload-key")
                                     }
                                 }
                             }

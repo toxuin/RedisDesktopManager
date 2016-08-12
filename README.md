@@ -6,7 +6,7 @@ This repo is for my personal use and was not intended for your own, commercial, 
 
 I will not silence you for discussion about how to build a .dmg from latest code as if it would be a piracy (it is, in fact, not a piracy. Code is under LGPL). Freely discuss this matter in Issues.
 
-I will gladly accept all pull requests to improve automated binary production. If you want to make changes to software itself, please contribute to the original repo, author would appreciate that (also, you'd get that bloody subscription for free for a week or so).
+I will gladly accept all pull requests to improve automated binary production. If you want to make changes to software itself, please contribute to the original repo, author would appreciate that (also, you'd get that bloody subscription for free for a year or so).
 
 You can also contribute build instructions to the wiki of this repo.
 

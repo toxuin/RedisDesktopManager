@@ -30,7 +30,7 @@ Updater::Updater()
             .arg(platform)
         );
 
-    manager->get(QNetworkRequest(updateUrl));
+    //manager->get(QNetworkRequest(updateUrl));
 
 }
 Updater::~Updater()

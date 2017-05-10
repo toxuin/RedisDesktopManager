@@ -39,7 +39,7 @@ Application::Application(int &argc, char **argv)
     initAppInfo();
     initAppFonts();    
     initRedisClient();
-    initUpdater();    
+    initUpdater();
     installTranslator();
 }
 
@@ -236,6 +236,6 @@ void Application::installTranslator()
 
 void Application::OnNewUpdateAvailable(QString &url)
 {
-    QMessageBox::information(nullptr, "New update available",
-        QString(QObject::tr("Please download new version of Redis Desktop Manager: %1")).arg(url));
+    //QMessageBox::information(nullptr, "New update available",
+    //    QString(QObject::tr("Please download new version of Redis Desktop Manager: %1")).arg(url));
 }
